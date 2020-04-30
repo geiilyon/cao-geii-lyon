@@ -2,8 +2,8 @@
 title: Module CAO GEII
 description: > # this means to ignore newlines until "baseurl:"
   Support des travaux pratiques de CAO à l'aide du logiciel Kicad du département GEII de l'IUT Lyon 1.
-baseurl: "/cao-geii-lyon/" # the subpath of your site, e.g. /blog/
-url: "https://geiilyon.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://geiilyon.github.io/cao-geii-lyon/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
