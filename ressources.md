@@ -12,5 +12,5 @@ permalink: /ressources/
 
 # Ressources externes
 
-* [Les vidéos d'Eric Peronnin](https://www.youtube.com/watch?v=C9EWrKw9Qz8&list=PLuQznwVAhY2VoayfSraJjI-Yr2OSGmFKt)
+* [Les vidéos d'Eric Peronnin (IUT de Nantes)](https://www.youtube.com/watch?v=C9EWrKw9Qz8&list=PLuQznwVAhY2VoayfSraJjI-Yr2OSGmFKt)
 
