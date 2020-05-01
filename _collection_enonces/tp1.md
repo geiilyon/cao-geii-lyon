@@ -71,6 +71,10 @@ Télécharger la version de Kicad correspondant à votre système sur le [site o
 
 Un même projet peut contenir plusieurs librairies d'empreintes et de symboles, plusieurs schémas, ...
 
+# Ajout de la bibliothèque GEII de symboles au projet
+
+{% include local_video.html file_name="Ajout librairie symboles IUT.mp4" %}
+
 # Création d'une bibliothèque de composants
 
 
