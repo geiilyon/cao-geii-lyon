@@ -27,10 +27,14 @@ Télécharger la version de Kicad correspondant à votre système sur le [site o
 
 3. Télécharger l'archive contenant les librairies suivante : [librairies]({% include file_link.html file="librairies.zip" %})
 4. Décompresser cette archive dans le dossier `G20x_Nom_TP_CAO`.
+ 
 
-    L'arborescence des fichiers et dossiers doit maintenant se présenter de la manière suivante :
+{% include local_video.html file_name="extraction_librairies.mp4" %}
 
-    ```
+
+L'arborescence des fichiers et dossiers doit maintenant se présenter de la manière suivante :
+
+```
     .
     └── Documents
         └── G20x_Nom_TP_CAO
@@ -54,7 +58,7 @@ Télécharger la version de Kicad correspondant à votre système sur le [site o
             └── librairies_symboles
                 ├── IUT_CAO_LIB_SYMBOLES.lib
                 └── IUT_CAO_LIB_SYMBOLES.dcm
-    ```
+```
 
 ## Présentation succincte du rôle des principaux fichiers qui constituent un project kicad :
 
@@ -72,6 +76,10 @@ Télécharger la version de Kicad correspondant à votre système sur le [site o
 Un même projet peut contenir plusieurs librairies d'empreintes et de symboles, plusieurs schémas, ...
 
 # Ajout de la bibliothèque GEII de symboles au projet
+
+Les bibliothèques précédemment téléchargées et décompressées doivent être ajoutées au projet. 
+
+Dans Kicad on peut configurer des librairies globales
 
 {% include local_video.html file_name="Ajout librairie symboles IUT.mp4" %}
 
