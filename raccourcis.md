@@ -14,7 +14,7 @@ Kicad possède un concept d'*accelerator key* et de *hotkey*.
 
 Les raccourcis de type *accelerator key* utilisent la même touche que la *hotkey* combiné avec la touche <kbd>Shift</kbd> (parfois également appelée <kbd>Maj</kbd> de symbole <kbd>⇧</kbd>).
 
-Exemple : le raccourci  <kbd>Shift</kbd>+<kbd>a</kbd> permet de basculer en mode placement de composants lors de la saisie du schéma 
+Exemple : le raccourci  <kbd>Shift</kbd>+<kbd>a</kbd> permet de basculer en mode placement de composants lors de la saisie du schéma et il est nécessaire de cliquer sur la souris pour démarrer 
 
 ## Editeur de schéma (Eeschema)
 

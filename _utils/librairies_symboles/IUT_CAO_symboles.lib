@@ -50,7 +50,7 @@ ENDDEF
 DEF SW_Push_B3F-1000 SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
 F1 "SW_Push_B3F-1000" 0 -150 50 H V C CNN
-F2 "IUT_empreintes:SW_TH_Tactile_Omron_B3F-10xx" 0 200 50 H I C CNN
+F2 "IUT_CAO_empreintes:SW_TH_Tactile_Omron_B3F-10xx" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
 C -80 0 20 0 1 0 N

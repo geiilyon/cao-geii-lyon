@@ -41,7 +41,7 @@ L'arborescence des fichiers et dossiers doit maintenant se présenter de la mani
             ├── G20x_Nom_TP_CAO.kicad_pcb
             ├── G20x_Nom_TP_CAO.pro
             ├── G20x_Nom_TP_CAO.sch
-            ├── IUT_empreintes.pretty
+            ├── IUT_CAO_empreintes.pretty
             │   ├── 162B.kicad_mod
             │   ├── C_Disc_D4.7mm_W2.5mm_P5.00mm.kicad_mod
             │   ├── C_Radial_D5.0mm_H11.0mm_P2.00mm.kicad_mod
@@ -56,11 +56,11 @@ L'arborescence des fichiers et dossiers doit maintenant se présenter de la mani
             │   ├── SW_DIP_SPSTx02_Slide_7.5x7.01mm_W7.62mm_P2.54mm_LowProfile.kicad_mod
             │   └── SW_TH_Tactile_Omron_B3F-10xx.kicad_mod
             └── librairies_symboles
-                ├── IUT_CAO_LIB_SYMBOLES.lib
-                └── IUT_CAO_LIB_SYMBOLES.dcm
+                ├── IUT_CAO_symboles.lib
+                └── IUT_CAO_symboles.dcm
 ```
 
-## Présentation succincte du rôle des principaux fichiers qui constituent un project kicad :
+## Rôle des principaux fichiers d'un project kicad
 
 | File                      | Description                                                                                                                    |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -79,11 +79,15 @@ Un même projet peut contenir plusieurs librairies d'empreintes et de symboles, 
 
 Les bibliothèques précédemment téléchargées et décompressées doivent être ajoutées au projet. 
 
-Dans Kicad on peut configurer des librairies globales
+Dans Kicad on peut configurer des librairies globales (accessibles pour tous les projets) et des librairies spécifiques au projet.
+
+Nous allons ajouter ici la librairie GEII spécifique au projet en cours.
 
 {% include local_video.html file_name="Ajout librairie symboles IUT.mp4" %}
 
 # Création d'une bibliothèque de composants
+
+G20x_Nom_symboles
 
 
 Tuto_1 :
