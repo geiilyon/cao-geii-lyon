@@ -205,22 +205,72 @@ pre {
 }
 
 /**
-* Video embed
-*/
-// .responsive-video {
-// position: relative;
-// padding-bottom: 56.25%; /* 16/9  ou 1920/1080 mais inversé*/
-// padding-top: 60px;
-// overflow: hidden;
-// }
+ * Table
+ */
 
+table {
+    background-color: transparent;
+}
+caption {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #777;
+    text-align: left;
+}
+th {
+    text-align: left;
+}
+table {
+    max-width: 90%;
+    margin-bottom: 20px;
+    border: 1px solid #dedede;
+}
 
-// .responsive-video iframe,
-// .responsive-video object,
-// .responsive-video embed {
-// position: absolute;
-// top: 0;
-// left: 0;
-// width: 80%;
-// height: 80%;
-// }
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    text-transform: none;
+    background-color: #777;
+    color: white;
+    text-align: left;
+}
+table > caption + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > th,
+table > thead:first-child > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > td {
+    border-top: 0;
+}
+
+table > tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+table col[class*="col-"] {
+    position: static;
+    display: table-column;
+    float: none;
+}
+table td[class*="col-"],
+table th[class*="col-"] {
+    position: static;
+    display: table-cell;
+    float: none;
+}
+
+table tr td {
+    hyphens: auto;
+    font-size: $small-font-size * 0.9;
+}

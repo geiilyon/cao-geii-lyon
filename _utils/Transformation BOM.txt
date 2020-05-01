@@ -1,0 +1,9 @@
+Transformation BOM
+
+Transformation des 2 colonnes en un lien hypertexte :
+Rechercher : ^.*;(http.*[^;]);(.*)$
+Remplacer : $1[$3]($2)
+
+Conversion csv -> Markdown table
+
+https://tableconvert.com (options : ne pas échapper les caractères spéciaux)

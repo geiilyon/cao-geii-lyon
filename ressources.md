@@ -8,7 +8,7 @@ permalink: /ressources/
 # La documentation officielle de Kicad
 
 * [Site de Kicad](https://www.kicad-pcb.org)
-* [Documentation de Kicad en français](https://docs.kicad-pcb.org/5.1.5/fr/)
+* [Documentation de Kicad partiellement traduite en français](https://docs.kicad-pcb.org/5.1.5/fr/)
 
 # Ressources externes
 
