@@ -17,8 +17,8 @@ Télécharger la version de Kicad correspondant à votre système sur le [site o
     Le dossier `CAO_IUT` doit maintenant contenir un sous-dossier `G20x_Nom_TP_CAO` qui contient à son tour 3 fichiers `G20x_Nom_TP_CAO.kicad_pcb`, `G20x_Nom_TP_CAO.pro` et `G20x_Nom_TP_CAO.sch`
     
     ```
-    .
-    └── Documents
+    Documents
+    └── CAO_IUT
         └── G20x_Nom_TP_CAO
             ├── G20x_Nom_TP_CAO.kicad_pcb
             ├── G20x_Nom_TP_CAO.pro
@@ -35,8 +35,8 @@ Télécharger la version de Kicad correspondant à votre système sur le [site o
 L'arborescence des fichiers et dossiers doit maintenant se présenter de la manière suivante :
 
 ```
-    .
-    └── Documents
+    Documents
+    └── CAO_IUT
         └── G20x_Nom_TP_CAO
             ├── G20x_Nom_TP_CAO.kicad_pcb
             ├── G20x_Nom_TP_CAO.pro

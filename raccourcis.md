@@ -14,11 +14,35 @@ Kicad possède un concept d'*accelerator key* et de *hotkey*.
 
 Les raccourcis de type *accelerator key* utilisent la même touche que la *hotkey* combiné avec la touche <kbd>Shift</kbd> (parfois également appelée <kbd>Maj</kbd> de symbole <kbd>⇧</kbd>).
 
-Exemple : le raccourci  <kbd>Shift</kbd>+<kbd>a</kbd> permet de basculer en mode placement de composants lors de la saisie du schéma et il est nécessaire de cliquer sur la souris pour démarrer 
+Exemple : le raccourci  <kbd>Shift</kbd>+<kbd>w</kbd> permet de basculer en mode dessin de fil lors de la saisie du schéma et il est ensuite nécessaire de cliquer sur la souris pour démarrer une connexion. L'appui sur <kbd>w</kbd> démarre immédiatement le tracé d'une connexion depuis l'emplacement courant de la souris.
+
+![]({% include img_link.html file="hotkeys.gif" %})
 
 ## Editeur de schéma (Eeschema)
 
-* <kbd>a</kbd> : complétion automatique
+| Fonction                                           | Raccourcis                   |
+| -------------------------------------------------- | ---------------------------- |
+| Retour au mode de sélection (flèche)               | <kbd>Esc</kbd>               |
+| Ajouter un symbole                                 | <kbd>a</kbd>                 |
+| Déplacer un élément (move)                         | <kbd>m</kbd>                 |
+| Copier un symbole ou un label                      | <kbd>c</kbd>                 |
+| Ajouter une équipotentielle d'alimentation (Power) | <kbd>p</kbd>                 |
+| Commencer un fil (wire)                            | <kbd>w</kbd>                 |
+| Editer un élément (symbole, référence, valeur,...) | <kbd>e</kbd>                 |
+| Ajouteur du texte (graphique)                      | <kbd>t</kbd>                 |
+| Déplacer un item en maintenant les liens (drag)    | <kbd>g</kbd>                 |
+| Supprimer un élément                               | <kbd>Del</kbd>               |
+| Rotation d'un élément                              | <kbd>r</kbd>                 |
+| Mirroir X                                          | <kbd>x</kbd>                 |
+| Mirroir Y                                          | <kbd>y</kbd>                 |
+| Copier un bloc                                     | <kbd>Ctrl</kbd>+<kbd>C</kbd> |
+| Coller un bloc                                     | <kbd>Ctrl</kbd>+<kbd>V</kbd> |
+| Couper un bloc                                     | <kbd>Ctrl</kbd>+<kbd>X</kbd> |
+| Editer la valeur d'un symbole                      | <kbd>v</kbd>                 |
+| Editer l'empreinte (Footprint) d'un symbole        | <kbd>f</kbd>                 |
+| Editer la référence d'un symbole                   | <kbd>u</kbd>                 |
+| Trouver un élément                                 | <kbd>Ctrl</kbd>+<kbd>F</kbd> |
+| Déplacer un bloc en maintenant les liens (Drag)    | <kbd>Tab</kbd>               |
 
 
 ## Editeur de symbole
@@ -27,19 +51,4 @@ Exemple : le raccourci  <kbd>Shift</kbd>+<kbd>a</kbd> permet de basculer en mode
 
 ## Editeur de circuit imprimé (Pcbnew)
 
-
-
----
-
-* <kbd>Ctrl</kbd>+<kbd>D</kbd> : supprime la ligne entière
-
-* <kbd>Alt</kbd>+<kbd>&uparrow;</kbd> ou <kbd>Alt</kbd>+<kbd>&downarrow;</kbd> : déplace la ligne entière
-
-* <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd> : renommage intelligent (Refactor->Rename), permet de renommer une variable, une méthode, une classe en prenant soin de modifier tous les endroits du code où le nom apparaît (renomme même le fichier .java en cas de changement de nom de la classe).
-
-* <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd> : mise en forme du code source (corrige l'indentation, les sauts de lignes, l'emplacement des accolades, les lignes trop longues, ...)
-
-* <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>O</kbd> : organise les imports (ajoute tous les imports de packages nécessaires)
-
-* <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> : ouverture rapide d'une classe ou une interface
 
