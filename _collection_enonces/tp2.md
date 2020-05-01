@@ -1,5 +1,5 @@
 ---
-title: Création de composantss
+title: Création de composants
 layout: page
 excerpt: Utilisation de l'éditeur de symboles.
 ---
