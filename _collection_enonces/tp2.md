@@ -1,3 +1,11 @@
+---
+title: Création de composantss
+layout: page
+excerpt: Utilisation de l'éditeur de symboles.
+---
+
+# Création du symbole de l'écran LCD
+
 Tuto_2 :
 Créer une bibliothèque d’empreinte
 Créer une empreinte physique

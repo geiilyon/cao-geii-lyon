@@ -1,7 +1,7 @@
 ---
 title: Introduction
 layout: page
-excerpt: Prise en main de Kicad. Configuration du projet
+excerpt: Installation de Kicad. Configuration du projet
 ---
 
 # Installation de Kicad
