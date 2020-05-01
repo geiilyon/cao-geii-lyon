@@ -29,7 +29,7 @@ Télécharger la version de Kicad correspondant à votre système sur le [site o
 4. Décompresser cette archive dans le dossier `G20x_Nom_TP_CAO`.
  
 
-{% include local_video.html file_name="extraction_librairies.mp4" %}
+{% include local_video.html file_name="TP1_a_extraction_librairies.mp4" %}
 
 
 L'arborescence des fichiers et dossiers doit maintenant se présenter de la manière suivante :
@@ -83,12 +83,13 @@ Dans Kicad on peut configurer des librairies globales (accessibles pour tous les
 
 Nous allons ajouter ici la librairie GEII spécifique au projet en cours.
 
-{% include local_video.html file_name="Ajout librairie symboles IUT.mp4" %}
+{% include local_video.html file_name="TP1_b_Ajout_librairie_symboles_IUT.mp4" %}
 
 # Création d'une bibliothèque de composants
 
 G20x_Nom_symboles
 
+{% include local_video.html file_name="TP1_c_Creation_librairie_symboles.mp4" %}
 
 Tuto_1 :
 Saisie du schéma
