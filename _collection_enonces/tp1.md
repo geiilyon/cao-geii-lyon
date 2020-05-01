@@ -87,7 +87,7 @@ Nous allons ajouter ici la librairie GEII spécifique au projet en cours.
 
 # Création d'une bibliothèque de composants
 
-G20x_Nom_symboles
+Créer une bibliothèque de symboles de composants nommée G20x_Nom_symboles en suivant la procédure présentée dans la vidéo ci-dessous,
 
 {% include local_video.html file_name="TP1_c_Creation_librairie_symboles.mp4" %}
 
