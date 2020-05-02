@@ -72,7 +72,7 @@ L'arborescence des fichiers et dossiers doit maintenant se présenter de la mani
 | G20x_Nom_TP_CAO-cache.lib | Fichier automatiquement créé et utilisé par l'éditeur de schéma contenant une copie des composants utilisés dans le schéma     |
 | xyz.kicad_mod             | Fichier contenant l'empreinte d'un composant                                                                                   |
 | une_librairie.lib         | Fichier librairie de symboles (composants de schémas), contenant la représentation graphique du composant (forme, pattes, ...) |
-| une_librairie.dcm         | Fichier de documentation de la librairie de symboles, contenant les commentaires, mots clés, liens vers la datasheet           |
+| une_librairie.dcm         | Fichier de documentation de la librairie de symboles, contenant les commentaires, mots clés, lien vers la datasheet           |
 
 Un même projet peut contenir plusieurs librairies d'empreintes et de symboles, plusieurs schémas, ...
 
