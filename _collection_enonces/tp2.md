@@ -17,6 +17,7 @@ Compléter le cartouche du schéma avec les informations suivantes en suivant la
 | Commentaire1 | NOM Prenom                                    |
 | Commentaire2 | G20x                                          |
 
+{% include youtube_video.html youtube_id="yXfSvNJac3c" %}
 
 # Création d'un symbole
 
