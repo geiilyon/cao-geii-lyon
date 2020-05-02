@@ -61,7 +61,7 @@ L'arborescence des fichiers et dossiers doit maintenant se présenter de la mani
                 └── IUT_CAO_symboles.dcm
 ```
 
-## Rôle des principaux fichiers d'un project kicad
+## Rôle des principaux fichiers d'un projet kicad
 
 | File                      | Description                                                                                                                    |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
