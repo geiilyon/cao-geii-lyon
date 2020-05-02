@@ -29,7 +29,8 @@ Télécharger la version de Kicad correspondant à votre système sur le [site o
 4. Décompresser cette archive dans le dossier `G20x_Nom_TP_CAO`.
  
 
-{% include local_video.html file_name="TP1_a_extraction_librairies.mp4" %}
+{% include youtube_video.html youtube_id="3XBW52TihB0" %}
+
 
 
 L'arborescence des fichiers et dossiers doit maintenant se présenter de la manière suivante :
@@ -83,22 +84,14 @@ Dans Kicad on peut configurer des librairies globales (accessibles pour tous les
 
 Nous allons ajouter ici la librairie GEII spécifique au projet en cours.
 
-{% include local_video.html file_name="TP1_b_Ajout_librairie_symboles_IUT.mp4" %}
+{% include youtube_video.html youtube_id="U7eUwGet6XM" %}
+
 
 # Création d'une bibliothèque de composants
 
 Créer une bibliothèque de symboles de composants nommée G20x_Nom_symboles en suivant la procédure présentée dans la vidéo ci-dessous,
 
-{% include local_video.html file_name="TP1_c_Creation_librairie_symboles.mp4" %}
-
-Tuto_1 :
-Saisie du schéma
-Création de la bibliothèque (schématique)
-Création/modification d’un composant 
-162B à partir du 1602
-Eventuellement le PIC16F1788 (à partir du PIC16F886 avec gestion des alias)
-Annotation des composants (Reprendre la numérotation des composants pour qu’elle corresponde à notre numérotation).
-Contrôle des erreurs électriques.
+{% include youtube_video.html youtube_id="_1GroStnVkE" %}
 
 
 [Suite...]({{site.baseurl}}/enonces/tp2)
