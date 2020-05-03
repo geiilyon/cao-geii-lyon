@@ -5,6 +5,12 @@ excerpt: Raccourcis claviers et astuces.
 permalink: /raccourcis/
 ---
 
+# Affichage
+
+Utiliser la molette de la souris pour zoomer/dezoomer et utiliser le clic sur la molette pour déplacer le point de vue.
+
+Pour recentrer l'affichage sur la totalité des composants présents il faut appuyer sur la touche <kbd>Home</kbd> (<kbd>↖︎</kbd>)
+
 # Raccourcis clavier
 
 Kicad possède un concept d'*accelerator key* et de *hotkey*.
@@ -17,6 +23,7 @@ Les raccourcis de type *accelerator key* utilisent la même touche que la *hotke
 Exemple : le raccourci  <kbd>Shift</kbd>+<kbd>w</kbd> permet de basculer en mode dessin de fil lors de la saisie du schéma et il est ensuite nécessaire de cliquer sur la souris pour démarrer une connexion. L'appui sur <kbd>w</kbd> démarre immédiatement le tracé d'une connexion depuis l'emplacement courant de la souris.
 
 ![]({% include img_link.html file="hotkeys.gif" %})
+
 
 ## Editeur de schéma (Eeschema)
 
@@ -47,8 +54,8 @@ Exemple : le raccourci  <kbd>Shift</kbd>+<kbd>w</kbd> permet de basculer en mode
 
 ## Editeur de symbole
 
-## Editeur d'empreinte
+*à venir*
 
 ## Editeur de circuit imprimé (Pcbnew)
 
-
+*à venir*

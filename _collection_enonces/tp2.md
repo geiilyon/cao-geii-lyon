@@ -1,7 +1,7 @@
 ---
 title: Saisie du schéma
 layout: page
-excerpt: Utilisation de l'éditeur de schéma et de création de composants avec l'éditeur de symboles.
+excerpt: Utilisation de l'éditeur de schéma et création de composants avec l'éditeur de symboles.
 ---
 
 # Schéma de la carte
@@ -36,7 +36,6 @@ Compléter le cartouche du schéma avec les informations suivantes en suivant la
 | Commentaire2 | G20x                                          |
 
 {% include youtube_video.html youtube_id="yXfSvNJac3c" %}
-
 
 # Création d'un symbole
 
@@ -107,3 +106,16 @@ Vous devrez ensuite réaliser la saisie du [schéma]({% include file_link.html f
 | SW3                  | Switch:SW_DIP_x02                |
 | U1                   | Interface_UART:MAX232            |
 | U2                   | IUT_CAO_symboles:PIC16F1788-xSP  |
+
+## Annotation des différents composants schématiques
+
+Utiliser l'annotation automatique en choisissant l'option "Trier les composants par position X".
+
+![]({% include img_link.html file="annotation_auto.png" %})
+
+Attention, si la position des composants sur votre schéma est légèrement différente par rapport au schéma de référence il peut y avoir des différences dans les annotations.
+Les références peuvent être modifiées manuellement en plaçant la souris au dessus de la référence et en tapant sur la touche <kbd>e</kbd>.
+
+## Vérification des règles électriques
+
+Une fois la saisie terminée, il faut lancer une vérification des règles électriques ERC (*Electrical Rules Check*) en cliquant sur l'icône qui représente une coccinelle ![]({% include img_link.html file="debug_coccinelle.png" %}) puis sur le bouton **Exécuter**.
