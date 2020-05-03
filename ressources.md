@@ -13,4 +13,5 @@ permalink: /ressources/
 # Ressources externes
 
 * [Les vidéos d'Eric Peronnin (IUT de Nantes)](https://www.youtube.com/watch?v=C9EWrKw9Qz8&list=PLuQznwVAhY2VoayfSraJjI-Yr2OSGmFKt)
+* [Lien vers la playlist youtube avec les vidéos faites par l'IUT présentes sur ce site](https://www.youtube.com/playlist?list=PL7rvKY5i4lpFBDVCMcpAlKG4OpOboHVDQ)
 
