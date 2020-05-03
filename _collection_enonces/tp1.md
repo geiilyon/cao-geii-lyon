@@ -78,7 +78,7 @@ Un même projet peut contenir plusieurs librairies d'empreintes et de symboles, 
 
 # Ajout de la bibliothèque GEII de symboles au projet
 
-Les bibliothèques précédemment téléchargées et décompressées doivent être ajoutées au projet. 
+Les bibliothèques précédemment téléchargées et décompressées doivent être ajoutées au projet.
 
 Dans Kicad on peut configurer des librairies globales (accessibles pour tous les projets) et des librairies spécifiques au projet.
 

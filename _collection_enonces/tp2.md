@@ -37,7 +37,10 @@ Compléter le cartouche du schéma avec les informations suivantes en suivant la
 
 {% include youtube_video.html youtube_id="yXfSvNJac3c" %}
 
+
 # Création d'un symbole
+
+## Exemple de création d'un symbole (PIC16F1788)
 
 La bibliothèque Kicad contient de nombreuses références de composants mais il arrive que le composant cherché ne soit pas présent. Certains composants de la bibliothèque peuvent présenter des erreurs ou bien avoir un schéma ne correspondant pas à ce que l'on souhaite.
 
@@ -53,4 +56,54 @@ Les informations nécessaires à la création de ce composant sont présentes da
 | Mots           | Flash-Based 8-Bit CMOS Microcontroller                        |
 | Documentation  | http://ww1.microchip.com/downloads/en/DeviceDoc/40001675C.pdf |
 
-[Suite...]({{site.baseurl}}/enonces/tp3)
+{% include youtube_video.html youtube_id="we7QEF_KYRw" %}
+
+Vous pouvez ouvrir la vidéo sur le site de youtube afin d'utiliser le sommaire (dans la description de la vidéo) pour naviguer vers un point particulier.
+
+## Création du symbole du LCD
+
+Créer un symbole de schématique (afficheur LCD 162B) à partir d’un symbole existant (HY1602E) et le sauvegarder dans votre bibliothèque schématique personnelle (G20x_Nom_symboles.lib) en utilisant les informations suivantes.
+
+Remarque : le symbole HY1602E ne possède pas d'alias, il n'est donc pas nécessaire de les supprimer.
+
+| Reference      | DS                                                                                          |
+| -------------- | ------------------------------------------------------------------------------------------- |
+| Valeur         | 162B-CC-BC-3LP                                                                              |
+| Empreinte      | IUT_CAO_empreintes:162B                                                                          |
+| Documentation  | https://cdn.displaytech-us.com/sites/default/files/display-data-sheet/162B%20series-v21.pdf |
+| Nom du symbole | 162B-CC-BC-3LP                                                                              |
+| Description    | LCD 16x2 Alphanumeric 16pin Blue/Yellow/Green Backlight 8bit parallel 5V VDD                |
+| Mots clé       | display LCD 7-segment                                                                       |
+
+![]({% include img_link.html file="lcd_162b.png" %})
+
+# Saisie du schéma
+
+Pour la saisie du schéma, il faut au préalable regarder la première vidéo du tutoriel d'Eric Peronnin (enseignant à l'IUT de Nantes) sur l'utilisation de l'éditeur de schéma :
+
+{% include youtube_video.html youtube_id="C9EWrKw9Qz8" %}
+
+Vous devrez ensuite réaliser la saisie du [schéma]({% include file_link.html file="Carte_PIC_CAO.pdf" %}) présenté en début de page en choisissant les symboles suivants :
+
+| Reference(s)         | NomLibrairie:NomSymbole          |
+| -------------------- | -------------------------------- |
+| C1, C6, C7, C8       | Device:C                         |
+| C2, C4, C5, C9, C10  | Device:C                         |
+| C3                   | Device:CP_Small                  |
+| D1, D2               | Device:LED                       |
+| D3, D4               | Device:LED                       |
+| DS1                  | G20x_NOM_symboles:162B-CC-BC-3LP |
+| J1                   | Connector:Screw_Terminal_01x02   |
+| J2                   | Connector_Generic:Conn_01x06     |
+| J3                   | Connector:DB9_Male_MountingHoles |
+| J4                   | Connector_Generic:Conn_01x08     |
+| J5                   | Connector:Conn_PIC_ICSP_ICD      |
+| R1, R3, R5, R6, R14  | Device:R                         |
+| R2, R4, R11          | Device:R                         |
+| R7, R8, R9, R10, R13 | Device:R                         |
+| R12                  | Device:R                         |
+| RV1, RV2             | Device:R_POT                     |
+| SW1, SW2             | Switch:SW_Push                   |
+| SW3                  | Switch:SW_DIP_x02                |
+| U1                   | Interface_UART:MAX232            |
+| U2                   | IUT_CAO_symboles:PIC16F1788-xSP  |
