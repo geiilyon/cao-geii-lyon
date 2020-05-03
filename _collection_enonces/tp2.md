@@ -48,28 +48,28 @@ Vous devrez ensuite réaliser la saisie du [schéma]({% include file_link.html f
 
  Il faut utiliser les symboles listés dans le tableau ci-dessous.
 
-| Reference(s)         | NomLibrairie:NomSymbole                 |
-| -------------------- | --------------------------------------- |
-| C1, C6, C7, C8       | Device:C                                |
-| C2, C4, C5, C9, C10  | Device:C                                |
-| C3                   | Device:CP_Small                         |
-| D1, D2               | Device:LED                              |
-| D3, D4               | Device:LED                              |
-| DS1                  | ** composant qui sera créé plus tard ** |
-| J1                   | Connector:Screw_Terminal_01x02          |
-| J2                   | Connector_Generic:Conn_01x06            |
-| J3                   | Connector:DB9_Male_MountingHoles        |
-| J4                   | Connector_Generic:Conn_01x08            |
-| J5                   | Connector:Conn_PIC_ICSP_ICD             |
-| R1, R3, R5, R6, R14  | Device:R                                |
-| R2, R4, R11          | Device:R                                |
-| R7, R8, R9, R10, R13 | Device:R                                |
-| R12                  | Device:R                                |
-| RV1, RV2             | Device:R_POT                            |
-| SW1, SW2             | Switch:SW_Push                          |
-| SW3                  | Switch:SW_DIP_x02                       |
-| U1                   | Interface_UART:MAX232                   |
-| U2                   | IUT_CAO_symboles:PIC16F1788-xSP         |
+| Reference(s)         | NomLibrairie:NomSymbole                                                            |
+| -------------------- | ---------------------------------------------------------------------------------- |
+| C1, C6, C7, C8       | Device:C                                                                           |
+| C2, C4, C5, C9, C10  | Device:C                                                                           |
+| C3                   | Device:CP_Small                                                                    |
+| D1, D2               | Device:LED                                                                         |
+| D3, D4               | Device:LED                                                                         |
+| DS1                  | <span style="font-weight: bold;color:red">composant qui sera créé plus tard</span> |
+| J1                   | Connector:Screw_Terminal_01x02                                                     |
+| J2                   | Connector_Generic:Conn_01x06                                                       |
+| J3                   | Connector:DB9_Male_MountingHoles                                                   |
+| J4                   | Connector_Generic:Conn_01x08                                                       |
+| J5                   | Connector:Conn_PIC_ICSP_ICD                                                        |
+| R1, R3, R5, R6, R14  | Device:R                                                                           |
+| R2, R4, R11          | Device:R                                                                           |
+| R7, R8, R9, R10, R13 | Device:R                                                                           |
+| R12                  | Device:R                                                                           |
+| RV1, RV2             | Device:R_POT                                                                       |
+| SW1, SW2             | Switch:SW_Push                                                                     |
+| SW3                  | Switch:SW_DIP_x02                                                                  |
+| U1                   | Interface_UART:MAX232                                                              |
+| U2                   | IUT_CAO_symboles:PIC16F1788-xSP                                                    |
 
 # Création des symboles non disponibles
 
