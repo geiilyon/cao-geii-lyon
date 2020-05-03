@@ -58,7 +58,7 @@ Les informations nécessaires à la création de ce composant sont présentes da
 
 {% include youtube_video.html youtube_id="we7QEF_KYRw" %}
 
-Vous pouvez ouvrir la vidéo sur le site de youtube afin d'utiliser le sommaire (dans la description de la vidéo) pour naviguer vers un point particulier.
+Vous pouvez [ouvrir la vidéo sur le site de youtube](https://www.youtube.com/watch?v=we7QEF_KYRw) afin d'utiliser le sommaire (dans la description de la vidéo) pour naviguer vers un point particulier.
 
 ## Création du symbole du LCD
 
