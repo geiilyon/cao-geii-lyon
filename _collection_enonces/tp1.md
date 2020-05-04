@@ -1,7 +1,7 @@
 ---
 title: Introduction
 layout: page
-excerpt: Installation de Kicad. Configuration du projet
+excerpt: Création et configuration du projet (installation des bibliothèques)
 ---
 
 # Installation de Kicad
@@ -12,7 +12,7 @@ Télécharger la version de Kicad correspondant à votre système sur le [site o
 # Configuration du projet
 
 1. Créer un dossier `CAO_IUT` dans votre dossier `Documents`
-1. Lancer le logiciel Kicad et créer un nouveau projet que vous nommerez en respectant le format suivant : `G20x_Nom_TP_CAO` en remplçaçant Nom par votre nom de famille.
+1. Lancer le logiciel Kicad et créer un nouveau projet que vous nommerez en respectant le format suivant : `G20x_Nom_TP_CAO` en remplaçant le x par votre numéro de groupe et Nom par votre nom de famille.
 
     Le dossier `CAO_IUT` doit maintenant contenir un sous-dossier `G20x_Nom_TP_CAO` qui contient à son tour 3 fichiers `G20x_Nom_TP_CAO.kicad_pcb`, `G20x_Nom_TP_CAO.pro` et `G20x_Nom_TP_CAO.sch`
     
@@ -25,7 +25,7 @@ Télécharger la version de Kicad correspondant à votre système sur le [site o
             └── G20x_Nom_TP_CAO.sch
     ```
 
-3. Télécharger l'archive contenant les librairies suivante : [librairies]({% include file_link.html file="librairies.zip" %})
+3. Télécharger [l'archive contenant les librairies]({% include file_link.html file="librairies.zip" %})
 4. Décompresser cette archive dans le dossier `G20x_Nom_TP_CAO`.
  
 
@@ -72,7 +72,7 @@ L'arborescence des fichiers et dossiers doit maintenant se présenter de la mani
 | G20x_Nom_TP_CAO-cache.lib | Fichier automatiquement créé et utilisé par l'éditeur de schéma contenant une copie des composants utilisés dans le schéma     |
 | xyz.kicad_mod             | Fichier contenant l'empreinte d'un composant                                                                                   |
 | une_librairie.lib         | Fichier librairie de symboles (composants de schémas), contenant la représentation graphique du composant (forme, pattes, ...) |
-| une_librairie.dcm         | Fichier de documentation de la librairie de symboles, contenant les commentaires, mots clés, lien vers la datasheet           |
+| une_librairie.dcm         | Fichier de documentation de la librairie de symboles, contenant les commentaires, mots clés, liens vers les datasheets         |
 
 Un même projet peut contenir plusieurs librairies d'empreintes et de symboles, plusieurs schémas, ...
 
