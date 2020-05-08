@@ -40,8 +40,8 @@ Exemple : le raccourci  <kbd>Shift</kbd>+<kbd>w</kbd> permet de basculer en mode
 | Déplacer un item en maintenant les liens (drag)    | <kbd>g</kbd>                 |
 | Supprimer un élément                               | <kbd>Del</kbd>               |
 | Rotation d'un élément                              | <kbd>r</kbd>                 |
-| Mirroir X                                          | <kbd>x</kbd>                 |
-| Mirroir Y                                          | <kbd>y</kbd>                 |
+| Miroir X                                          | <kbd>x</kbd>                 |
+| Miroir Y                                          | <kbd>y</kbd>                 |
 | Copier un bloc                                     | <kbd>Ctrl</kbd>+<kbd>C</kbd> |
 | Coller un bloc                                     | <kbd>Ctrl</kbd>+<kbd>V</kbd> |
 | Couper un bloc                                     | <kbd>Ctrl</kbd>+<kbd>X</kbd> |

@@ -1,7 +1,7 @@
 ---
 title: Introduction
 layout: page
-excerpt: Création et configuration du projet (installation des bibliothèques)
+excerpt: Création, configuration du projet et installation des bibliothèques (commencer ici)
 ---
 
 # Installation de Kicad
@@ -14,16 +14,11 @@ Télécharger la version de Kicad correspondant à votre système sur le [site o
 1. Créer un dossier `CAO_IUT` dans votre dossier `Documents`
 1. Lancer le logiciel Kicad et créer un nouveau projet que vous nommerez en respectant le format suivant : `G20x_Nom_TP_CAO` en remplaçant le x par votre numéro de groupe et Nom par votre nom de famille.
 
-    Le dossier `CAO_IUT` doit maintenant contenir un sous-dossier `G20x_Nom_TP_CAO` qui contient à son tour 3 fichiers `G20x_Nom_TP_CAO.kicad_pcb`, `G20x_Nom_TP_CAO.pro` et `G20x_Nom_TP_CAO.sch`
+    Le dossier `CAO_IUT` doit maintenant contenir un sous-dossier `G20x_Nom_TP_CAO` qui contient à son tour 3 fichiers `G20x_Nom_TP_CAO.kicad_pcb`, `G20x_Nom_TP_CAO.pro` et `G20x_Nom_TP_CAO.sch`. 
     
-    ```
-    Documents
-    └── CAO_IUT
-        └── G20x_Nom_TP_CAO
-            ├── G20x_Nom_TP_CAO.kicad_pcb
-            ├── G20x_Nom_TP_CAO.pro
-            └── G20x_Nom_TP_CAO.sch
-    ```
+    L'image ci-dessous montre la vue du projet depuis l'application Kicad et le contenu du dossier vu depuis l'explorateur de fichiers de windows (il peut être utile de rafraichir l'affichage dans Kicad en cliquant sur les flèches ![]({% include img_link.html file="refresh_arrows.png" %}) :
+    
+    ![]({% include img_link.html file="ExplorerKicadWindowsAfterProjectCreation.png" %})
 
 3. Télécharger [l'archive contenant les librairies]({% include file_link.html file="librairies.zip" %})
 4. Décompresser cette archive dans le dossier `G20x_Nom_TP_CAO`.
@@ -31,35 +26,9 @@ Télécharger la version de Kicad correspondant à votre système sur le [site o
 
 {% include youtube_video.html youtube_id="3XBW52TihB0" %}
 
-
-
 L'arborescence des fichiers et dossiers doit maintenant se présenter de la manière suivante :
 
-```
-    Documents
-    └── CAO_IUT
-        └── G20x_Nom_TP_CAO
-            ├── G20x_Nom_TP_CAO.kicad_pcb
-            ├── G20x_Nom_TP_CAO.pro
-            ├── G20x_Nom_TP_CAO.sch
-            ├── IUT_CAO_empreintes.pretty
-            │   ├── 162B.kicad_mod
-            │   ├── C_Disc_D4.7mm_W2.5mm_P5.00mm.kicad_mod
-            │   ├── C_Radial_D5.0mm_H11.0mm_P2.00mm.kicad_mod
-            │   ├── CP_Radial_D6.3mm_P2.50mm.kicad_mod
-            │   ├── DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.kicad_mod
-            │   ├── LED_D5.0mm.kicad_mod
-            │   ├── PicKit_4_Snap_1x08_P2.54mm_Vertical.kicad_mod
-            │   ├── PinHeader_1x06_P2.54mm_Vertical.kicad_mod
-            │   ├── PinHeader_1x08_P2.54mm_Vertical.kicad_mod
-            │   ├── Potentiometer_Bourns_3306F_Vertical.kicad_mod
-            │   ├── Potentiometer_Bourns_3306P_Vertical.kicad_mod
-            │   ├── SW_DIP_SPSTx02_Slide_7.5x7.01mm_W7.62mm_P2.54mm_LowProfile.kicad_mod
-            │   └── SW_TH_Tactile_Omron_B3F-10xx.kicad_mod
-            └── librairies_symboles
-                ├── IUT_CAO_symboles.lib
-                └── IUT_CAO_symboles.dcm
-```
+![]({% include img_link.html file="ExplorerKicadWindowsAfterLibrariesUnarchiving.png" %})
 
 ## Rôle des principaux fichiers d'un projet kicad
 
@@ -86,6 +55,9 @@ Nous allons ajouter ici la librairie GEII spécifique au projet en cours.
 
 {% include youtube_video.html youtube_id="U7eUwGet6XM" %}
 
+Lors du premier lancement de Kicad, une boîte de dialogue s'ouvre pour demander quelles librairies globales copier. Il faut choisir l'option recommandée :
+
+![]({% include img_link.html file="Copie_table_globale_premier_lancement.png" %})
 
 # Création d'une bibliothèque de composants
 

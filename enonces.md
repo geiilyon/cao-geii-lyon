@@ -2,7 +2,7 @@
 layout: page
 title: Enoncés
 modified:
-excerpt: Sujets des travaux pratiques.
+excerpt: Sujets des travaux pratiques (commencer ici !).
 permalink: /enonces/
 ---
 
