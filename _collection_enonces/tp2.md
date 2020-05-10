@@ -49,9 +49,14 @@ Pour la saisie du schéma, il faut au préalable regarder la première vidéo du
 
 Pour compléter le schéma vous aurez besoin de la liste des noms des symboles (**tableau ci-dessous**) et des outils suivants :
 * Les alimentations (+5V, GND) ainsi que les POWER_FLAG se placent avec l'outil ![]({% include img_link.html file="icone_placer_symbole_power.png" %})
-* Les labels globaux ![]({% include img_link.html file="label_global_pot2.png" %}), ![]({% include img_link.html file="label_global_LCD_D4.png" %}) se placent avec l'outil ![]({% include img_link.html file="icone_placer_label_global.png" %}) (la barre au dessus de MCLR est obtenue en tapant `~MCLR`)
+* Les labels globaux ![]({% include img_link.html file="label_global_pot2.png" %}), ![]({% include img_link.html file="label_global_LCD_D4.png" %}) se placent avec l'outil ![]({% include img_link.html file="icone_placer_label_global.png" %}) et on peut modifier l'emplacement du point de connexion et la forme du label en éditant ses propriétés. La barre au dessus du texte MCLR est obtenue en tapant `~MCLR`.
+
+![]({% include img_link.html file="labels_globaux_details.png" %})
+
+
 * Les pattes non connectées ![]({% include img_link.html file="patte_NC.png" %}) se placent avec l'outil ![]({% include img_link.html file="icone_NC.png" %})
 * Les lignes bleues se dessinent avec l'outil ![]({% include img_link.html file="icone_placer_lignes_polygone_graphiques.png" %}) (pour les modifier il faut utilser la commande *drag*, raccourci : touche <kbd>g</kbd>)
+* la [liste des raccourcis]({{site.baseurl}}/raccourcis/#raccourcis-clavier) et [une vidéo sur l'utilisation du trackpad et de la souris]({{site.baseurl}}/raccourcis/#zoom-et-pan-en-utilisant-le-trackpad-ou-la-souris) pour naviguer dans le schéma
 
 Vous devez maintenant réaliser la saisie du [schéma]({% include file_link.html file="Carte_PIC_CAO.pdf" %}) de la carte avec le PIC présenté en début de page en laissant de côté l'afficheur LCD (DS1). Ce composant sera créé dans la partie suivante. Il faut utiliser les symboles listés dans le tableau ci-dessous, la deuxième colonne précise le nom de la bibliothèque et la troisième le nom du symbole. Dans le champ de filtre de recherche on peut taper des bouts des noms des librairies, des symboles ou encore des mots clés.
 
@@ -94,7 +99,7 @@ Les informations nécessaires à la création de ce composant sont présentes da
 | -------------- | ------------------------------------------------------------- |
 | Nom du symbole | PIC16F1788-xSP                                                |
 | Description    | 16KB Flash, 2KB SRAM, 256B EEPROM, XLP, DIP28                 |
-| Mots           | Flash-Based 8-Bit CMOS Microcontroller                        |
+| Mots-clés      | Flash-Based 8-Bit CMOS Microcontroller                        |
 | Documentation  | http://ww1.microchip.com/downloads/en/DeviceDoc/40001675C.pdf |
 
 {% include youtube_video.html youtube_id="we7QEF_KYRw" %}
@@ -114,11 +119,11 @@ Sommaire de la vidéo (pour un accès direct aux principales étapes) :
 
 ## Création du symbole du LCD
 
-Créer un symbole de schématique (afficheur LCD 162B) à partir d’un symbole existant (HY1602E) et le sauvegarder dans votre bibliothèque schématique personnelle (G20x_Nom_symboles.lib) en utilisant les informations dans le tableau ci-dessous.
-
-L'empreinte étant présente dans la librairie d'empreintes de l'IUT, il faut d'abord l'ajouter à la table des librairies spécifiques au projet (sur le même modèle que ce que nous avons fait pour la librairie de symboles).
+L'empreinte du LCD que nous allons créer étant présente dans la librairie d'empreintes de l'IUT, il faut d'abord l'ajouter à la table des librairies spécifiques au projet (sur le même modèle que ce que nous avons fait pour la librairie de symboles).
 
 {% include youtube_video.html youtube_id="aVPmBOjBtfw" %}
+
+Créer un symbole de schématique (afficheur LCD 162B) à partir d’un symbole existant (HY1602E) et le sauvegarder dans votre bibliothèque schématique personnelle (G20x_Nom_symboles.lib) en utilisant les consignes qui suivent.
 
 Remarques importantes pour la création du LCD :
 
@@ -150,4 +155,6 @@ Les références peuvent être modifiées manuellement en plaçant la souris au 
 ## Vérification des règles électriques
 
 Une fois la saisie terminée, il faut lancer une vérification des règles électriques ERC (*Electrical Rules Check*) en cliquant sur l'icône qui représente une coccinelle ![]({% include img_link.html file="debug_coccinelle.png" %}) puis sur le bouton **Exécuter**.
-Attendre que le texte *fini* appraisse dans la fenêtre des messages et vérifier que la liste des erreurs est vide.
+Attendre que le texte *fini* apparaisse dans la fenêtre des messages et vérifier que la liste des erreurs est vide.
+
+[Suite...]({{site.baseurl}}/enonces/tp3)

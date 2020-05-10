@@ -5,12 +5,6 @@ excerpt: Raccourcis claviers et astuces.
 permalink: /raccourcis/
 ---
 
-# Affichage
-
-Utiliser la molette de la souris pour zoomer/dezoomer et utiliser le clic sur la molette pour déplacer le point de vue.
-
-Pour recentrer l'affichage sur la totalité des composants présents il faut appuyer sur la touche <kbd>Home</kbd> (<kbd>↖︎</kbd>)
-
 # Raccourcis clavier
 
 Kicad possède un concept d'*accelerator key* et de *hotkey*.
@@ -59,3 +53,9 @@ Exemple : le raccourci  <kbd>Shift</kbd>+<kbd>w</kbd> permet de basculer en mode
 ## Editeur de circuit imprimé (Pcbnew)
 
 *à venir*
+
+# Zoom et pan en utilisant le trackpad ou la souris
+
+{% include youtube_video.html youtube_id="lao9N2P1w0s" %}
+
+Pour recentrer l'affichage sur la totalité des composants présents il faut appuyer sur la touche <kbd>Home</kbd> (<kbd>↖︎</kbd>)

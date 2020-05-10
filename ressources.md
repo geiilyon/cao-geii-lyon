@@ -17,6 +17,10 @@ permalink: /ressources/
 
 # Librairies
 
+## Consignes pour la création de symboles et d'empreintes
+
+[Conventions de la librairie Kicad](https://kicad-pcb.org/libraries/klc/)
+
 ## Librairies de Kicad pour une mise à jour
 
 * Schematic symbols: [https://kicad.github.io/symbols](https://kicad.github.io/symbols)
