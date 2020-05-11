@@ -5,6 +5,11 @@ excerpt: Raccourcis claviers et astuces.
 permalink: /raccourcis/
 ---
 
+# Utilisation de la souris
+
+Double-cliquer sur un élement ouvre la boîte de dialogue permettant son édition.
+
+
 # Raccourcis clavier
 
 Kicad possède un concept d'*accelerator key* et de *hotkey*.

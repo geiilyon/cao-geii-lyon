@@ -48,21 +48,22 @@ Créez maintenant cette empreinte dans votre librairie.
 
 Dans cette vidéo, nous allons voir toutes les étapes de la création d'une nouvelle empreinte : celle d'un bornier à vis à 3 points ([documentation]({% include file_link.html file="Bornier%20KRM.pdf" %}))
 
-{% include youtube_video.html youtube_id="rl-2yy1DgMU" %}
+{% include youtube_video.html youtube_id="wQZBoFJdPsI" %}
+
 
 Sommaire de la vidéo (pour un accès direct aux principales étapes) :
 
-1. <a href="https://www.youtube.com/watch?v=rl-2yy1DgMU" target="_blank">Recherche dans les librairies</a>
-1. <a href="https://www.youtube.com/watch?v=rl-2yy1DgMU&t=96s" target="_blank">Nommage de la nouvelle empreinte</a>
-1. <a href="https://www.youtube.com/watch?v=rl-2yy1DgMU&t=298s" target="_blank">Placement des pastilles (pads)</a>
-1. <a href="https://www.youtube.com/watch?v=rl-2yy1DgMU&t=385s" target="_blank">Edition des pastilles</a>
-1. <a href="https://www.youtube.com/watch?v=rl-2yy1DgMU&t=610s" target="_blank">Tracé de la sérigraphie (F.SilkS : Front Silkscreen)</a>
-2. <a href="https://www.youtube.com/watch?v=rl-2yy1DgMU&t=698s" target="_blank">Mesure des dimensions</a>
-3. <a href="https://www.youtube.com/watch?v=rl-2yy1DgMU&t=786s" target="_blank">Sauvegarde en librairie</a>
-4. <a href="https://www.youtube.com/watch?v=rl-2yy1DgMU&t=812s" target="_blank">Dessin de l'occupation physique du composant (F.CrtYd)</a>
-5. <a href="https://www.youtube.com/watch?v=rl-2yy1DgMU&t=833s" target="_blank">Dessin de la couche de fabrication</a>
-6. <a href="https://www.youtube.com/watch?v=rl-2yy1DgMU&t=888s" target="_blank">Affichage/Masquage des couches</a>
-6. <a href="https://www.youtube.com/watch?v=rl-2yy1DgMU&t=908s" target="_blank">Propriétés de l'empreinte</a>
+1. <a href="https://www.youtube.com/watch?v=wQZBoFJdPsI" target="_blank">Recherche dans les librairies</a>
+2. <a href="https://www.youtube.com/watch?v=wQZBoFJdPsI&t=96s" target="_blank">Nommage de la nouvelle empreinte</a>
+3. <a href="https://www.youtube.com/watch?v=wQZBoFJdPsI&t=298s" target="_blank">Placement des pastilles (pads)</a>
+4. <a href="https://www.youtube.com/watch?v=wQZBoFJdPsI&t=385s" target="_blank">Edition des pastilles</a>
+5. <a href="https://www.youtube.com/watch?v=wQZBoFJdPsI&t=610s" target="_blank">Tracé de la sérigraphie (F.SilkS : Front Silkscreen)</a>
+6. <a href="https://www.youtube.com/watch?v=wQZBoFJdPsI&t=698s" target="_blank">Mesure des dimensions</a>
+7. <a href="https://www.youtube.com/watch?v=wQZBoFJdPsI&t=786s" target="_blank">Sauvegarde en librairie</a>
+8. <a href="https://www.youtube.com/watch?v=wQZBoFJdPsI&t=812s" target="_blank">Dessin de l'occupation physique du composant (F.CrtYd)</a>
+9. <a href="https://www.youtube.com/watch?v=wQZBoFJdPsI&t=833s" target="_blank">Dessin de la couche de fabrication</a>
+10. <a href="https://www.youtube.com/watch?v=wQZBoFJdPsI&t=888s" target="_blank">Affichage/Masquage des couches</a>
+11. <a href="https://www.youtube.com/watch?v=wQZBoFJdPsI&t=908s" target="_blank">Propriétés de l'empreinte</a>
 
 ## Création de l'empreinte du bornier à vis 2 points
 
