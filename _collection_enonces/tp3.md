@@ -42,6 +42,8 @@ La longueur et le diamètre ne sont pas exactement ceux de notre résistance (av
 
 Créez maintenant cette empreinte dans votre librairie.
 
+Remarque : si vous avez le message "Measurement Tool not available in legacy toolset" en voulant utiliser l'outil pied à coulisse, il faut aller dans le menu `Préférences` et choisir `Affichage moderne (Accéléré)` (raccourci <kbd>F11</kbd>)
+
 # Création de l'empreinte du bornier
 
 ## Exemple d'un bornier à vis 3 points
@@ -69,4 +71,4 @@ Sommaire de la vidéo (pour un accès direct aux principales étapes) :
 
 En suivant le modèle de la vidéo précédente, créez l'empreinte du bornier à vis 2 points qui servira pour amener l'alimentation sur la carte.
 
-
+[Suite...]({{site.baseurl}}/enonces/tp4)
