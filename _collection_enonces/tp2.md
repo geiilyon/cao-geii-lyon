@@ -128,7 +128,7 @@ Créer un symbole de schématique (afficheur LCD 162B) à partir d’un symbole 
 Remarques importantes pour la création du LCD :
 
 * le symbole HY1602E ne possède pas d'alias, il n'est donc pas nécessaire de les supprimer.
-* il y a une différence entre le HY1602E et le 162B (LED de rétroéclairage sur les pattes 1 et 2).
+* <span style="font-weight: bold;color:red">Attention : </span>**il y a une différence entre le HY1602E et le 162B (LED de rétroéclairage sur les pattes 1 et 2)**.
 
 | Reference      | DS                                                                                          |
 | -------------- | ------------------------------------------------------------------------------------------- |
