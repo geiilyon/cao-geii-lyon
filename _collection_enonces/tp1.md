@@ -59,7 +59,7 @@ Lors du premier lancement de Kicad, une boîte de dialogue s'ouvre pour demander
 
 ![]({% include img_link.html file="Copie_table_globale_premier_lancement.png" %})
 
-# Création d'une bibliothèque de composants
+# Création d'une bibliothèque de symboles
 
 Créer une bibliothèque de symboles de composants nommée G20x_Nom_symboles en suivant la procédure présentée dans la vidéo ci-dessous,
 

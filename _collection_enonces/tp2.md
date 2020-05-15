@@ -49,7 +49,7 @@ Pour la saisie du schéma, il faut au préalable regarder la première vidéo du
 
 Pour compléter le schéma vous aurez besoin de la liste des noms des symboles (**tableau ci-dessous**) et des outils suivants :
 * Les alimentations (+5V, GND) ainsi que les POWER_FLAG se placent avec l'outil ![]({% include img_link.html file="icone_placer_symbole_power.png" %})
-* Les labels globaux ![]({% include img_link.html file="label_global_pot2.png" %}), ![]({% include img_link.html file="label_global_LCD_D4.png" %}) se placent avec l'outil ![]({% include img_link.html file="icone_placer_label_global.png" %}) et on peut modifier l'emplacement du point de connexion et la forme du label en éditant ses propriétés. La barre au dessus du texte MCLR est obtenue en tapant `~MCLR`.
+* Les labels globaux ![]({% include img_link.html file="label_global_pot2.png" %}), ![]({% include img_link.html file="label_global_LCD_D4.png" %}) se placent avec l'outil ![]({% include img_link.html file="icone_placer_label_global.png" %}) et on peut modifier l'emplacement du point de connexion et la forme du label en éditant ses propriétés. La barre au dessus du texte MCLR ![]({% include img_link.html file="label_global_mclr.png" %}) est obtenue en tapant `~MCLR`.
 
 ![]({% include img_link.html file="labels_globaux_details.png" %})
 
