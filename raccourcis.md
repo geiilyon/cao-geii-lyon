@@ -63,4 +63,4 @@ Exemple : le raccourci  <kbd>Shift</kbd>+<kbd>w</kbd> permet de basculer en mode
 
 {% include youtube_video.html youtube_id="lao9N2P1w0s" %}
 
-Pour recentrer l'affichage sur la totalité des composants présents il faut appuyer sur la touche <kbd>Home</kbd> (<kbd>↖︎</kbd>)
+Pour recentrer l'affichage sur la totalité du schéma, il faut appuyer sur la touche <kbd>Home</kbd> (<kbd>↖︎</kbd>)

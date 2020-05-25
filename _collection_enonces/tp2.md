@@ -129,6 +129,7 @@ Remarques importantes pour la création du LCD :
 
 * le symbole HY1602E ne possède pas d'alias, il n'est donc pas nécessaire de les supprimer.
 * <span style="font-weight: bold;color:red">Attention : </span>**il y a une différence entre le HY1602E et le 162B (LED de rétroéclairage sur les pattes 1 et 2)**.
+* Dans l'onglet *Filtre des modules* de la boîte de dialogue des propriétés du symbole, modifier le filtre des empreintes pour le remplacer par **\*162B\***. (Ce filtre permettra plus tard de suggérer la bonne empreinte pour ce composant).
 
 | Reference      | DS                                                                                          |
 | -------------- | ------------------------------------------------------------------------------------------- |

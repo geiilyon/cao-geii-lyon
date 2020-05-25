@@ -4,19 +4,29 @@ layout: page
 excerpt: Présentation des outils permettant de définir l'empreinte associée à chaque symbole
 ---
 
+Il existe plusieurs manières d'associer une empreinte à chaque composant apparaissant sur le schéma. Nous allons en présenter 2 dans ce cours car elles sont complémentaires.
+
+* L'utilisation de l'éditeur de champs des symboles permet d'attribuer en une étape une même empreinte à plusieurs composants.
+* L'outil "Assigner les empreintes des composants de la schématique" est pratique car il s'appuie sur des filtres de recherche contenus dans les symboles pour proposer les empreintes les plus adaptées.
+  
+Par la suite vous serez libre de choisir l'une ou l'autre de ces 2 approches.
+
+
 # Utilisation de l'éditeur de champs des symboles
 
-*à venir*
+{% include youtube_video.html youtube_id="iqKKaZbtPWA" %}
 
-# Utilisation de l'outil Assigner les empreintes des composants de la schématique (CvPcb)
+# Utilisation de l'outil "Assigner les empreintes des composants de la schématique" (CvPcb)
 
-*à venir*
+*A venir*
 
 # Associer les empreintes du schéma de la carte PIC
 
 Utiliser le tableau ci-dessous pour affecter les empreintes (*footprint*) aux composants du schéma.
 
 Ce tableau sert aussi à valider les valeurs saisies pour chaque composant ainsi que les symboles utilisés.
+Le lien vers les documentations techniques peut être utile à la validation des empreintes choisies.
+L'exercice consistant à aller chercher les dimensions caractéristiques du composant nécessaires à la sélection ou à la création de l'empreinte est en effet primordiale en CAO.
 
 | Reference(s)         | Value             | LibPart                          | Footprint                                                                                                   | Référence fabricant                                                                                           |
 | -------------------- | ----------------- | -------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
