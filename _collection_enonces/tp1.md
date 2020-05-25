@@ -1,7 +1,7 @@
 ---
 title: Introduction
 layout: page
-excerpt: Création, configuration du projet et installation des bibliothèques (commencer ici)
+excerpt: Création, configuration du projet et installation des bibliothèques (commencer ici !)
 ---
 
 # Installation de Kicad
