@@ -69,6 +69,6 @@ Sommaire de la vidéo (pour un accès direct aux principales étapes) :
 
 ## Création de l'empreinte du bornier à vis 2 points
 
-En suivant le modèle de la vidéo précédente, créez l'empreinte du bornier à vis 2 points qui servira pour amener l'alimentation sur la carte.
+En suivant le modèle de la vidéo précédente, créez l'empreinte du bornier à vis 2 points qui servira pour amener l'alimentation sur la carte. Dans sa version 2 points, le bornier A une longueur de 10 mm, on le nommera `Bornier_1x02_L10mm_W7.5mm_P5mm`. Toutes les dimensions sont données dans la [documentation technique](http://www.farnell.com/datasheets/2047458.pdf).
 
 [Suite...]({{site.baseurl}}/enonces/tp4)
