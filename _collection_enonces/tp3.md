@@ -38,7 +38,7 @@ Il s'agit d'une résistance axiale que nous allons monter à l'horizontale. En t
 R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
 ```
 
-La longueur et le diamètre ne sont pas exactement ceux de notre résistance (avec une erreur de 0,5 mm sur la longueur et de 0,1 mm sur le diamètre) mais il n'est pas nécessaire  de les modifier, le critère fondamental dans une empreinte est la distance entre les pastilles. Il faut par contre modifier cette empreinte pour avoir des pastilles dont le diamètre est de 2 mm.
+La longueur et le diamètre ne sont pas exactement ceux de notre résistance (avec une erreur de 0,5 mm sur la longueur et de 0,1 mm sur le diamètre) mais il n'est pas nécessaire  de les modifier, le critère fondamental dans une empreinte est la distance entre les pastilles. Il faut par contre modifier cette empreinte pour avoir des pastilles dont le diamètre est de 2 mm (le diamètre de perçage est de 0,8 mm).
 
 Créez maintenant cette empreinte dans votre librairie.
 
