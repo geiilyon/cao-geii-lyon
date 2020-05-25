@@ -18,7 +18,7 @@ Par la suite vous serez libre de choisir l'une ou l'autre de ces 2 approches.
 
 # Utilisation de l'outil "Assigner les empreintes des composants de la schématique" (CvPcb)
 
-*A venir*
+{% include youtube_video.html youtube_id="WcpT7ipVPN4" %}
 
 # Associer les empreintes du schéma de la carte PIC
 
