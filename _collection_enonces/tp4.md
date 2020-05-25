@@ -9,7 +9,7 @@ Il existe plusieurs manières d'associer une empreinte à chaque composant appar
 * L'utilisation de l'éditeur de champs des symboles permet d'attribuer en une étape une même empreinte à plusieurs composants.
 * L'outil "Assigner les empreintes des composants de la schématique" est pratique car il s'appuie sur des filtres de recherche contenus dans les symboles pour proposer les empreintes les plus adaptées.
   
-Par la suite vous serez libre de choisir l'une ou l'autre de ces 2 approches.
+Par la suite vous serez libres de choisir l'une ou l'autre de ces 2 approches ou les 2 !
 
 
 # Utilisation de l'éditeur de champs des symboles
