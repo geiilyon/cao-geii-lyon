@@ -50,7 +50,7 @@ Remarque : si vous avez le message "Measurement Tool not available in legacy too
 
 ## Exemple d'un bornier à vis 3 points
 
-Dans cette vidéo, nous allons voir toutes les étapes de la création d'une nouvelle empreinte : celle d'un bornier à vis à 3 points ([documentation]({% include file_link.html file="Bornier%20KRM.pdf" %}))
+Dans cette vidéo, nous allons voir toutes les étapes de la création d'une nouvelle empreinte : celle d'un bornier à vis à 3 points ([documentation]({% include file_link.html file="Bornier%20KRM.pdf" %})). Cette vidéo est inspirée de la [vidéo d'Eric Peronnin](https://youtu.be/U0zn2dS4Jac) (IUT de Nantes).
 
 {% include youtube_video.html youtube_id="wQZBoFJdPsI" %}
 
