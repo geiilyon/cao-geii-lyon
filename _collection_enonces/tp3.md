@@ -44,13 +44,10 @@ La longueur n'est pas exactement celle de notre résistance (erreur de 0,5 mm) m
 
 Créez maintenant cette empreinte dans votre librairie.
 
-<<<<<<< HEAD
 Remarque : si vous avez le message "Measurement Tool not available in legacy toolset" en voulant utiliser l'outil pied à coulisse, il faut aller dans le menu `Préférences` et choisir `Affichage moderne (Accéléré)` (raccourci <kbd>F11</kbd>)
 
 ![]({% include img_link.html file="affichage_moderne.png" %})
 
-=======
->>>>>>> placement_routage
 # Création de l'empreinte du bornier
 
 ## Exemple d'un bornier à vis 3 points
