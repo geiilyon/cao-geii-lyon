@@ -39,7 +39,7 @@ Les règles de routage utilisées dans le cours sont rappelées ci-dessous :
 
 # Placement des composants et routage
 
-Les deux vidéos suivantes faites par Eric Peronnin (IUT de Nantes) permettent d'illustrer l'utilisation des différents outils de Pcbnew. Elles servent à illustrer le fonctionnement du logiciel afin de vous permettre de router votre carte par la suite **en respectant les contraintes de placement données plus loin**.
+Les deux vidéos suivantes faites par Eric Peronnin (IUT de Nantes) permettent d'illustrer l'utilisation des différents outils de Pcbnew. Elles servent à illustrer le fonctionnement du logiciel afin de vous permettre de router votre carte par la suite **en respectant les contraintes de placement données plus loin**. Faites particulièrement attention à l'utilisation des grilles pour placer et aligner précisément les composants.
 
 La première vidéo présente :
 
@@ -63,6 +63,7 @@ On veillera également à respecter les contraintes suivantes (l'origine des coo
 
 * La pastille 1 de l'afficheur LCD sera positionnée en (dx, dy) = (-35, 10)
 * La pastille 1 du connecteur d'alimentation J1 sera positionnée en (dx, dy) = (-4, 25)
+* Les condensateurs de découplage doivent être placés au plus près des composants à découpler
 * Straps en ligne droite (horizontaux ou verticaux) : pas de virage, pas de diagonale
 * Pas de straps sous les composants
 * Pas de straps à travers les composants
