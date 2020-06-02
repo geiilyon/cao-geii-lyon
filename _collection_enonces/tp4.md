@@ -11,7 +11,6 @@ Il existe plusieurs manières d'associer une empreinte à chaque composant appar
   
 Par la suite vous serez libres de choisir l'une ou l'autre de ces 2 approches ou les 2 !
 
-
 # Utilisation de l'éditeur de champs des symboles
 
 {% include youtube_video.html youtube_id="iqKKaZbtPWA" %}
@@ -51,5 +50,4 @@ L'exercice consistant à aller chercher les dimensions caractéristiques du comp
 | U1                   | MAX232            | Interface_UART:MAX232            | Package_DIP:DIP-16_W7.62mm_Socket_LongPads                                                                  | [MAX232N](http://www.ti.com/lit/ds/symlink/max232.pdf)                                                        |
 | U2                   | PIC16F1788-xSP    | IUT_CAO_symboles:PIC16F1788-xSP  | Package_DIP:DIP-28_W7.62mm_Socket_LongPads                                                                  | [PIC16F1788-I/SP](http://ww1.microchip.com/downloads/en/DeviceDoc/40001675C.pdf)                              |
 
-
-
+[Suite...]({{site.baseurl}}/enonces/tp5)
