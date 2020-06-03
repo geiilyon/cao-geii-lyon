@@ -50,14 +50,26 @@ Exemple : le raccourci  <kbd>Shift</kbd>+<kbd>w</kbd> permet de basculer en mode
 | Trouver un élément                                 | <kbd>Ctrl</kbd>+<kbd>F</kbd> |
 | Déplacer un bloc en maintenant les liens (Drag)    | <kbd>Tab</kbd>               |
 
+## Editeur de circuit imprimé (Pcbnew)
+
+| Fonction                                                | Raccourcis                    |
+| ------------------------------------------------------- | ----------------------------- |
+| Retour au mode de sélection (flèche)                    | <kbd>Esc</kbd>                |
+| Passer en mode routage d'une piste simple               | <kbd>Shift</kbd>+<kbd>X</kbd> |
+| Démarrer le routage d'une piste simple                  | <kbd>X</kbd>                  |
+| Changer de couche (place un via si en routage en cours) | <kbd>v</kbd>                  |
+| Origine des coordonnées relatives                       | <kbd>Espace</kbd>             |
+| Déplacer une piste à 45° (drag)                         | <kbd>d</kbd>                  |
+| Déplacer une piste à angle quelconque (drag)            | <kbd>g</kbd>                  |
+| Déplacer un composant (move)                            | <kbd>M</kbd>                  |
+| Faire tourner un composant (rotate)                     | <kbd>R</kbd>                  |
+| Sélectionner le segment de piste (entre 2 pastilles)    | <kbd>U</kbd>                  |
+| Sélectionner toutes les pistes connectées (même noeud)  | <kbd>I</kbd>                  |
 
 ## Editeur de symbole
 
 *à venir*
 
-## Editeur de circuit imprimé (Pcbnew)
-
-*à venir*
 
 # Zoom et pan en utilisant le trackpad ou la souris
 
