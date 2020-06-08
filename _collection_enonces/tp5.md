@@ -63,12 +63,17 @@ On veillera également à respecter les contraintes suivantes (l'origine des coo
 
 * La pastille 1 de l'afficheur LCD sera positionnée en (dx, dy) = (-35, 10)
 * La pastille 1 du connecteur d'alimentation J1 sera positionnée en (dx, dy) = (-4, 25)
-* Le connecteur DB9 doit être orienté vers l'extérieur de la carte avec la partie connecteur qui déborde de la carte (pastille 1 en dx = -109 et dy libre)
+* Le connecteur DB9 doit être orienté vers l'extérieur de la carte avec la partie connecteur qui déborde de la carte (pastille 1 en dx = -109 et dy libre). La partie de l'empreinte dessinée sur la couche sérigraphie ne doit pas déborder du bord de la carte, c'est la raison pour laquelle le connecteur est dessiné sur la couche mécanique.
+
+![]({% include img_link.html file="DB9_Orientation.png" %})
+
 * Les condensateurs de découplage doivent être placés au plus près des composants à découpler
 * Straps en ligne droite (horizontaux ou verticaux) : pas de virage, pas de diagonale sur la couche F.Cu
 * Pas de straps sous les composants
 * Pas de straps à travers les composants
-
 Remarques : 
 * le connecteur J5 (PICKit) définit une grande zone d'occupation mécanique (Ctyd) mais vu la forme du connecteur il pourra chevaucher les trous de fixations
+  
+  ![]({% include img_link.html file="pickit.png" %})
+
 * le LCD sera également surélevé et peut lui aussi chevaucher un trou de fixation
