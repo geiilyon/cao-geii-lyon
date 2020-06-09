@@ -17,7 +17,7 @@ La vidéo suivante présente les étapes de finalisation qu'il faudra appliquer 
 
 Le texte qui devra figurer sur la couche de sérigraphie et sur la couche B.Cu devra comporter votre nom et votre numéro de groupe. Ex : `ROBIN - G201`.
 
-Ajouter également le texte `+` et `GND` à côté des pattes du bornier à vis.
+Ajouter également le texte `+5V` et `GND` à côté des pattes du bornier à vis sur les couches B.cu et F.SilkS.
 
 Une fois votre routage terminé, il faut rafraîchir le plan de masse en appuyant sur la touche <kbd>B</kbd> (ou bien en passant par le menu *Editer->Remplissage Toutes Zones*) et relancer une vérification des règles de conception DRC ![]({% include img_link.html file="debug_coccinelle.png" %}).
 
