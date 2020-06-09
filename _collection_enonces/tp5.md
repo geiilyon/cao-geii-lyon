@@ -68,7 +68,7 @@ On veillera également à respecter les contraintes suivantes (l'origine des coo
 ![]({% include img_link.html file="DB9_Orientation.png" %})
 
 * Les condensateurs de découplage doivent être placés au plus près des composants à découpler
-* Straps en ligne droite (horizontaux ou verticaux) : pas de virage, pas de diagonale sur la couche F.Cu
+* Straps en ligne droite (horizontaux ou verticaux) : pas de virage, pas de diagonale sur la couche F.Cu. Un strap est matérialisé par une piste sur la couche F.Cu (rouge) entre 2 vias (on ne peut pas partir de la patte d'un composant car cela supposerait de mettre la patte du composant et le strap dans le même trou)
 * Pas de straps sous les composants
 * Pas de straps à travers les composants
 Remarques : 
