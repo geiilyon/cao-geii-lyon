@@ -77,3 +77,17 @@ Remarques :
   ![]({% include img_link.html file="pickit.png" %})
 
 * le LCD sera également surélevé et peut lui aussi chevaucher un trou de fixation
+
+# Vérification des erreurs de design (DRC : Design Rule Check)
+
+Cliquer sur l'icône qui représente une coccinelle ![]({% include img_link.html file="debug_coccinelle.png" %}) puis choisir *Exécuter DRC*.
+
+A ce stade les seules erreurs acceptables sont les chevauchements des zones d'occupation du LCD avec les trous de fixation et du connecteur J5 (PICKit) avec le trou de fixation :
+
+```
+Zones d'occupation d'empreintes chevauchantes
+@(yyy.yyy mm, zzz.zzz mm): Empreinte <pas de référence> sur F.Cu
+@(yyy.yyy mm, zzz.zzz mm): Empreinte J5 sur F.Cu
+```
+
+[Suite...]({{site.baseurl}}/enonces/tp6)
