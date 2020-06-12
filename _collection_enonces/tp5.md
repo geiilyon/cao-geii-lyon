@@ -72,6 +72,7 @@ On veillera également à respecter les contraintes suivantes (l'origine des coo
   
 ![]({% include img_link.html file="strap.png" %})
 
+* Un même via ne peut pas être utilisé par 2 straps.
 * Pas de straps sous les composants
 * Pas de straps à travers les composants
   
