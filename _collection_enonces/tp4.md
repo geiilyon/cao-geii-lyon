@@ -25,7 +25,7 @@ Utiliser le tableau ci-dessous pour affecter les empreintes (*footprint*) aux co
 
 Ce tableau sert aussi à valider les valeurs saisies pour chaque composant ainsi que les symboles utilisés.
 Le lien vers les documentations techniques peut être utile à la validation des empreintes choisies.
-L'exercice consistant à aller chercher les dimensions caractéristiques du composant nécessaires à la sélection ou à la création de l'empreinte est en effet primordiale en CAO.
+L'exercice consistant à aller chercher les dimensions caractéristiques du composant nécessaires à la sélection ou à la création de l'empreinte est en effet primordial en CAO.
 
 | Reference(s)         | Value             | LibPart                          | Footprint                                                                                                   | Référence fabricant                                                                                           |
 | -------------------- | ----------------- | -------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
