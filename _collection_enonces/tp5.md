@@ -68,6 +68,7 @@ On veillera également à respecter les contraintes suivantes (l'origine des coo
 ![]({% include img_link.html file="DB9_Orientation.png" %})
 
 * Les condensateurs de découplage doivent être placés au plus près des composants à découpler
+* Routage simple face : les pistes sont dessinées sur la couche B.Cu (verte) vue par transparence dans le logiciel
 * Straps en ligne droite (horizontaux ou verticaux) : pas de virage, pas de diagonale sur la couche F.Cu. Un strap est matérialisé par une piste sur la couche F.Cu (rouge) entre 2 vias (on ne peut pas partir de la patte d'un composant car cela supposerait de mettre la patte du composant et le strap dans le même trou)
   
 ![]({% include img_link.html file="strap.png" %})
