@@ -30,4 +30,4 @@ Vérifier qu'il ne reste pas de connexions non routées.
 
 Terminer par une inspection visuelle de la carte pour vérifier l'absence de court-circuit, la présence des freins thermiques dans le plan de masse.
 
-Archiver le projet et le remettre à votre enseignant.
+# Archiver le projet et le remettre à votre enseignant.
