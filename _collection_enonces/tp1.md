@@ -4,9 +4,9 @@ layout: page
 excerpt: Création, configuration du projet et installation des bibliothèques (commencer ici !)
 ---
 
-# Installation de Kicad
+# Installation de Kicad (optionnel si à l'IUT)
 
-Télécharger la version de Kicad correspondant à votre système sur le [site officiel](https://www.kicad-pcb.org/download/) et suivre les consignes du [fichier PDF lié]({% include file_link.html file="Installation_KICAD.pdf" %}).
+Si vous travaillez sur votre propre PC, il faut télécharger la version de Kicad correspondant à votre système sur le [site officiel](https://www.kicad-pcb.org/download/) et suivre les consignes du [fichier PDF lié]({% include file_link.html file="Installation_KICAD.pdf" %}).
 
 
 # Configuration du projet
