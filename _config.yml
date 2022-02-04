@@ -1,5 +1,5 @@
 # Site settings
-title: Module CAO GEII
+title: Ancien module de CAO GEII
 description: > # this means to ignore newlines until "baseurl:"
   Support des travaux pratiques de CAO à l'aide du logiciel Kicad du département GEII de l'IUT Lyon 1.
 baseurl: "/cao-geii-lyon" # the subpath of your site, e.g. /blog/
