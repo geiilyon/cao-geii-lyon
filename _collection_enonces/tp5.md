@@ -31,7 +31,7 @@ Sommaire de la vidéo (pour un accès direct) :
 * <a href="https://www.youtube.com/watch?v=cfshMq2tAx0&t=31s" target="_blank">Présentations des différentes couches (layers)</a>
 * <a href="https://www.youtube.com/watch?v=cfshMq2tAx0&t=213s" target="_blank">Configuration des règles de conception</a>
 
-<span style="font-weight: bold;color:red">Modifiez les règles de routage pour appliquer celles ci-dessous (les largeurs de pistes sont plus importantes que celles présentées dans la vidéo)</span> :
+Les règles de routage utilisées dans le cours sont rappelées ci-dessous :
 
 ![]({% include img_link.html file="regles_conception.png" %})
 
